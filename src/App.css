@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+
+.name {
+  position: absolute;
+width: 252px;
+height: 17px;
+left: 6%;
+top: 94px;
+
+font-family: Libre Franklin;
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 36px;
+
+color: #808080;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  position: absolute;
+width: 559px;
+height: 61px;
+left: 6%;
+top: 175px;
+
+font-family: Libre Franklin;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 34px;
+
+color: #808080;
+}
+.multiple-passions {
+  position: absolute;
+  height: 40px;
+  left: 6%;
+  top: 110px;
+
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight:100;
+  color: #000000;
+}
+.intro {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-picture {
+  /* Ellipse 2 */
+
+position: absolute;
+width: 330px;
+height: 330px;
+left: 850px;
+top: 102px;
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+}
+.blue-circle {
+  /* Ellipse 1 */
+position: absolute;
+width: 330px;
+height: 330px;
+left: 900px;
+top: 133px;
+border-radius:50%;
+background: #0000FF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-me {
+position: absolute;
+-webkit-appearance: none;
+width: 200px;
+height: 70px;
+left: 200px;
+top: 312px;
+font-family: Libre Franklin !important;
+font-weight:200;
+font-size: 20px;
+background: #FFA500;
+border-radius: 50px;
+  color:white;
+  border-color: none;
 }
 
-.App-link {
-  color: #61dafb;
+.baby-picture {
+  /* 183753171_748653222464127_5556519575850240194_n 1 */
+
+  position: absolute;
+  width: 368px;
+  height: 407px;
+  left: 38px;
+  top: 964px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about-me {
+  position: relative;
+}
+.about-me {
+  /* About Me */
+
+position: absolute;
+width: 262px;
+height: 45px;
+left: 38px;
+top: 850px;
+
+font-family: Libre Franklin;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.about-me-paragraph {
+  /* Ever since I was a kid, I’ve always loved to learn, especially with strategy games. In elementary school I loved chess and in high school, I fell in love with the game of poker. I’ve always loved the process of learning about mistakes and improving. My love of learning led me to the world of Computer Science and I haven’t looked back since. */
+
+position: absolute;
+width: 647px;
+height: 443px;
+left: 432px;
+top: 934px;
+
+font-family: Libre Franklin;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+
+.typed-responses {
+  font-weight: 200;
+}
+
+.linkedin {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 420px;
+  left: 170px;
+}
+
+.github {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 420px;
+  left: 270px;
+}
+
+.resume {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 425px;
+  left: 370px;
 }
