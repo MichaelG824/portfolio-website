@@ -96,9 +96,6 @@ border-radius: 50px;
 
 }
 
-#about-me {
-  position: relative;
-}
 .about-me {
   /* About Me */
 
@@ -155,6 +152,7 @@ color: #000000;
   position: absolute;
   top: 420px;
   left: 270px;
+  border-radius: 50%;
 }
 
 .resume {
@@ -164,3 +162,81 @@ color: #000000;
   top: 425px;
   left: 370px;
 }
+
+.textpert {
+  /* Ellipse 4 */
+
+position: absolute;
+width: 180px;
+height: 180px;
+left: 400px;
+top: 1929px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 50%;
+}
+
+.ucla {
+  /* Ellipse 5 */
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 850px;
+  top: 1929px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+
+.wework {
+  /* Ellipse 6 */
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 400px;
+  top: 2258px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.bluebeam {
+  /* Ellipse 3 */
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 850px;
+  top: 2258px;
+
+  background: url(Bluebeam.png);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:50%;
+}
+
+.work-experience {
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 38px;
+  top: 1750px;
+
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.textpert-company-name {
+  
+}
+
