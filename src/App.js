@@ -1,6 +1,6 @@
 import './App.css';
 import profilePicture from "./profile-picture.png";
-import babyPicture from './baby-picture.jpg';
+import babyPicture from './baby-picture.png';
 import FadeIn from 'react-fade-in';
 import Typical from 'react-typical';
 import LinkedIn from './linkedin.png';
@@ -13,6 +13,8 @@ import Textpert from './textpert.png';
 import Ucla from './ucla.png';
 import WeWork from './wework.jpeg';
 import Bluebeam from './Bluebeam.png';
+import { Container, Row, Col } from 'react-bootstrap';
+
 function App() {
 
   useEffect(() => {
@@ -20,56 +22,87 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <div className="intro">
-        <div className="name">Michael Gee.</div>
-        <p className="multiple-passions"><strong>I am</strong>
-        <Typical
-          className="typed-responses"
-          loop={Infinity}
-          wrapper='b'
-          steps={[
-            2000,
-            ' a Software Engineer',
-            2000,
-            ' a Chess Enthusiast',
-            2000,
-            ' a Poker Fanatic',
-            2000,
-            ' a BJJ Junkie',
-            2000
-          ]}
-        ></Typical>
-        </p>
-              
-        <p className="description">C.S graduate from UCLA with industry experience in Full-Stack development</p>
-        <FadeIn delay={100}>
-          <div className="blue-circle"></div>
-        </FadeIn>
-        <FadeIn delay={2000}>
-        <img className="profile-picture" src={profilePicture}/>
-        </FadeIn>
+        <div className="intro">
+          
+          <div className="name">Michael Gee.</div>
+          <p className="multiple-passions"><strong>I am</strong>
+          <Typical
+            className="typed-responses"
+            loop={Infinity}
+            wrapper='b'
+            steps={[
+              2000,
+              ' a Software Engineer',
+              2000,
+              ' a Chess Enthusiast',
+              2000,
+              ' a Poker Fanatic',
+              2000,
+              ' a BJJ Junkie',
+              2000
+            ]}
+          ></Typical>
+          </p>
+          <button className="contact-me">Contact Me!</button>
+          <img className="linkedin" src={LinkedIn} />
+          <img className="github" src={Github} />
+          <img className="resume" src={Resume} />
         
-        <button className="contact-me">Contact Me!</button>
-        <img className="linkedin" src={LinkedIn} />
-        <img className="github" src={Github} />
-        <img className="resume" src={Resume} />
-      </div>
-      <div className="about-me-w" >
-        <h1 className="about-me" data-aos="fade-up">About Me</h1>
-        <img className="baby-picture" src={babyPicture} data-aos="fade-up" />
-        <p className="about-me-paragraph" data-aos="fade-up">Ever since I was a kid, I’ve always loved to learn, especially with strategy games. In elementary school I loved chess and in high school, I fell in love with the game of poker. I’ve always loved the process of learning about mistakes and improving.  My love of learning led me to the world of Computer Science and I haven’t looked back since. </p>
-      </div>
+            
+          <p className="description">C.S graduate from UCLA with industry experience in Full-Stack development</p>
+          <FadeIn delay={100}>
+            <div className="blue-circle"></div>
+          </FadeIn>
+          <FadeIn delay={2000}>
+          <img className="profile-picture" src={profilePicture}/>
+          </FadeIn>
+        </div>
+      
+        <div className="about-me-w" >
+          <h1 className="about-me" data-aos="fade-up">About Me</h1>
+            <img className="baby-picture" src={babyPicture} data-aos="fade-up" />
+            <p className="about-me-paragraph" data-aos="fade-up">Ever since I was a kid, I’ve always loved to learn, especially with strategy games. In elementary school I loved chess and in high school, I fell in love with the game of poker. I’ve always loved the process of learning about mistakes and improving.  My love of learning led me to the world of Computer Science and I haven’t looked back since. </p>
+        </div>      
       
       
       <div id="experience">
         <h1 className="work-experience" data-aos="fade-up">Work Experience</h1>
-        <p className="textpert-company-name">Textpert SWE Intern</p>
-        <img className="textpert" src={Textpert} data-aos="fade-up" />
-        <img className="ucla" src={Ucla} data-aos="fade-up"/>
-        <img className="wework" src={WeWork} data-aos="fade-up"/>
-        <img className="bluebeam" src={Bluebeam} data-aos="fade-up" />
+          <div className="flex-grid f-pics" data-aos="fade-up">
+            <div className="flex-item-1"><img className="textpert" src={Textpert}/></div>
+            <div className="flex-item-2"><img className="ucla" src={Ucla} /></div>
+          </div>
+          <div className="flex-grid" >
+            <div className="flex-item-1"><p className="center-text company-name">Textpert</p></div>
+            <div className="flex-item-2"><p className="center-text company-name">UCLA Social Sciences Computing</p></div>
+          </div>
+          <div className="flex-grid">
+            <div className="flex-item-1"><p className="center-text">SWE Intern</p></div>
+            <div className="flex-item-2"><p className="center-text">Student Programmer</p></div>
+          </div>
+          <div className="flex-grid">
+            <div className="flex-item-1"><p className="center-text">June 2018 - August 2018</p></div>
+            <div className="flex-item-2"><p className="center-text">Septermber 2018 - January 2019</p></div>
+          </div>
+          <div>
+            <div className="flex-grid flex-grid-2" data-aos="fade-up">
+              <div className="flex-item-1"><img className="wework" src={WeWork} /></div>
+              <div className="flex-item-2"><img className="bluebeam" src={Bluebeam}/></div>
+            </div>
+            <div className="flex-grid" >
+              <div className="flex-item-1"><p className="center-text company-name">WeWork</p></div>
+              <div className="flex-item-2"><p className="center-text company-name">Bluebeam</p></div>
+            </div>
+            <div className="flex-grid">
+              <div className="flex-item-1"><p className="center-text">SWE Intern</p></div>
+              <div className="flex-item-2"><p className="center-text">SWE Intern</p></div>
+            </div>
+            <div className="flex-grid">
+              <div className="flex-item-1"><p className="center-text">June 2019 - August 2019</p></div>
+              <div className="flex-item-2"><p className="center-text">June 2020 - September 2020</p></div>
+            </div>
+          </div>
+        
       </div>
-
     </div>
   );
 }
