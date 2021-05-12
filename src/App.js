@@ -13,7 +13,8 @@ import Textpert from './textpert.png';
 import Ucla from './ucla.png';
 import WeWork from './wework.jpeg';
 import Bluebeam from './Bluebeam.png';
-import { Container, Row, Col } from 'react-bootstrap';
+import GoogleCloud from './google-cloud-platform.png';
+import DodgerAlert from './dodger-alert.png';
 
 function App() {
 
@@ -102,6 +103,14 @@ function App() {
             </div>
           </div>
         
+      </div>
+
+      <div className="projects">
+        <h1 className="work-experience" data-aos="fade-up">Projects</h1>
+        <div className="flex-grid" data-aos="fade-up">
+            <div className="flex-item-1"><img className="google-cloud-platform" src={GoogleCloud} data-aos="fade-right"/></div>
+            <div className="flex-item-2"><img className="dodger-alert" src={DodgerAlert} data-aos="fade-left" /></div>
+          </div>
       </div>
     </div>
   );

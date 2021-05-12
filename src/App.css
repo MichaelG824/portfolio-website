@@ -267,3 +267,19 @@ display: block;
 .company-name {
   margin-top: 15px;
 }
+
+.projects {
+  height: 1000px;
+}
+
+.google-cloud-platform {
+  height: 400px;
+  width: 500px;
+  border: solid black;
+}
+
+.dodger-alert {
+  height: 400px;
+  width: 500px;
+  border: solid black;
+}
