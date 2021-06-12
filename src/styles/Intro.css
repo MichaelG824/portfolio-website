@@ -1,0 +1,118 @@
+.name {
+    position: absolute;
+  width: 252px;
+  height: 17px;
+  left: 6%;
+  top: 94px;
+  
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: #808080;
+}
+
+.multiple-passions {
+    position: absolute;
+    height: 40px;
+    left: 6%;
+    top: 110px;
+  
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight:100;
+    color: #000000;
+  }
+
+  .typed-responses {
+    font-weight: 200;
+  }
+
+  .linkedin {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 420px;
+    left: 170px;
+  }
+  
+  .github {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 420px;
+    left: 270px;
+    border-radius: 50%;
+  }
+  
+  .resume {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 425px;
+    left: 370px;
+  }
+
+  .contact-me {
+    position: absolute;
+    -webkit-appearance: none;
+    width: 200px;
+    height: 70px;
+    left: 200px;
+    top: 312px;
+    font-family: Libre Franklin !important;
+    font-weight:200;
+    font-size: 20px;
+    background: #FFA500;
+    border-radius: 50px;
+      color:white;
+      border-color: none;
+    }
+    
+    .intro {
+        height: 800px;
+        position: relative;
+      }
+      
+      .profile-picture {
+        /* Ellipse 2 */
+      
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 850px;
+      top: 102px;
+      border: 1px solid #FFFFFF;
+      border-radius: 50%;
+      }
+      
+      .blue-circle {
+        /* Ellipse 1 */
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 900px;
+      top: 133px;
+      border-radius:50%;
+      background: #0000FF;
+      }
+
+      .description {
+        position: absolute;
+      width: 559px;
+      height: 61px;
+      left: 6%;
+      top: 175px;
+      
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 28px;
+      line-height: 34px;
+      
+      color: #808080;
+      }
